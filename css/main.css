@@ -1,0 +1,333 @@
+/* ===============================
+    Main Styles
+=============================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 6rem;
+}
+
+.page-name {
+  padding-top: 15rem;
+  font-size: 3.5rem;
+	text-align: center;
+  font-family: Georgia, sans-serif;
+}
+
+.main-footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: firebrick;
+  justify-content: space-around;
+}
+
+.wrap {
+  min-height: 92.6vh;
+}
+
+.copy {
+  color: firebrick;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+
+/* ===============================
+  HEADING
+=============================== */
+
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding-bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.main-header {
+  background-image: url('../img/pencil.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .7;
+}
+
+header {
+  text-align: center;
+}
+
+#header {
+  font-size: 4.4rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1:first-child {
+  margin-top: .3%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* -- Navigation -- */
+.main-nav {
+  font-size: 1.75rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
+a:hover {
+  color: firebrick;
+}
+
+a:active {
+  color: rgb(80, 17, 17);
+}
+
+
+
+/* ===============================
+  About page
+=============================== */
+
+.me {
+  border-radius: 25px 25px 25px 25px;
+  border: firebrick;
+}
+
+p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.aboutPageName {
+  font-size: 4rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.about-me {
+  display: block;
+  padding: 0 15rem 0 15rem;
+  margin: 0 8rem 0 8rem;
+  text-align: center;
+}
+
+
+
+/* ===============================
+  Contact page
+=============================== */
+
+.contactPageName {
+  font-size: 4rem;
+}
+
+.contact {
+  font-size: 2.5rem;
+}
+
+.contact h3 {
+  margin: 0 0 20px 0;
+}
+
+.contactme p {
+  padding: 0 40px 0 40px;
+}
+
+.contactopt {
+  padding: 0 0 20px 0;
+}
+
+.contactopt li {
+  padding: 0 0 10px 0;
+  font-size: 1.5rem;
+}
+
+.contactopt a {
+  min-height: 50px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  padding: 0 0 0 30px;
+}
+
+.contactopt li.phone a {
+  background-image: url(../img/phone.png);
+}
+
+.contactopt li.email a {
+  background-image: url(../img/mail.png);
+}
+
+.contactopt li.twitter a {
+  background-image: url(../img/twitter.png);
+}
+
+.contactopt li.facebook a {
+  background-image: url(../img/facebook.png);
+}
+
+.contactopt li a:hover {
+  text-decoration: underline;
+  text-shadow: .5px .5px black;
+  color: rgba(241, 7, 7, .49);
+}
+
+.contactopt li a:active {
+  color: rgb(211, 183, 165);
+}
+
+
+
+/* ===============================
+  IMAGES
+=============================== */
+
+.galleryItem {
+  float: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 35px;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: 20px;
+  padding: 0;
+  width: 100%;
+  /* height: 60%; */
+  max-width: 100%;
+}
+
+/* Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 36px;
+  margin-top: -5px;
+  color: #dfebad;
+  font-weight: bolder;
+  font-size: 40px;
+  transition: 0.3s ease-in;
+  border-radius: 0 30px 30px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next" button to the right */
+.next {
+  right: 0;
+  border-radius: 30px 0 0 30px;
+}
+
+/* On hover, add a black background color with a little see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.199);
+}
+
+/* Number text (1/6) */
+.numbertext {
+  color: white;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: -35px;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 20), 0 6px 20px 0 rgba(0, 0, 0, 19);
+}
+
+img {
+  border-radius: 5px;
+  cursor: default;
+  transition: 0.3s;
+  margin: 15px;
+}
+
+
+/* Add Animation */
+
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+  from {transform: scale(0.1)}
+  to {transform: scale(1)}
+}
