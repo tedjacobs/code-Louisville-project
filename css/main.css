@@ -53,7 +53,7 @@ body {
 }
 
 .main-header {
-  background-image: url('../img/pencil.png');
+  background-image: url('../img/pencil2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,6 +66,7 @@ header {
 
 #header {
   font-size: 4.4rem;
+  color: rgb(78, 28, 5);
   margin: 0;
   padding: 0;
   text-align: center;
@@ -105,7 +106,6 @@ a:active {
 
 .me {
   border-radius: 25px 25px 25px 25px;
-  border: firebrick;
 }
 
 p {
@@ -154,8 +154,8 @@ p {
 }
 
 .contactopt li {
-  padding: 0 0 10px 0;
-  font-size: 1.5rem;
+  padding: 5px 0 10px 0;
+  font-size: 2.5rem;
 }
 
 .contactopt a {
@@ -181,6 +181,10 @@ p {
   background-image: url(../img/facebook.png);
 }
 
+.contactopt li.paypal a {
+  background-image: url(../img/paypal.png);
+}
+
 .contactopt li a:hover {
   text-decoration: underline;
   text-shadow: .5px .5px black;
@@ -189,6 +193,10 @@ p {
 
 .contactopt li a:active {
   color: rgb(211, 183, 165);
+}
+
+.booth {
+  margin-top: 0;
 }
 
 
