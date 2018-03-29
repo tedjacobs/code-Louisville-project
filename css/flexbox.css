@@ -52,7 +52,6 @@ body {
 .contact, {
 	display: flex;
 	justify-content: center;
-	/* word-wrap: inherit; */
 }
 
 .contact {
@@ -176,10 +175,6 @@ margin: 2rem;
 }
 
 @media (max-width: 850px) {
-	/* .mySlides img {
-		max-width: 100%;
-		height: auto;
-	} */
 	.thumb {
 		display: block;
 		justify-content: center;
@@ -207,10 +202,6 @@ margin: 2rem;
 }
 
 @media screen and (max-width: 535px) {
-	/* .mySlides img {
-		max-width: 100%;
-		height: auto;
-	} */
 	.thumb {
 		display: block;
 		justify-content: center;

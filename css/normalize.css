@@ -11,7 +11,6 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  /* margin-top: 14%; */
 }
 
 /* Sections
@@ -25,15 +24,7 @@ body {
   margin: 0;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
 
-/* h1 {
-  font-size: 4rem;
-  margin: 0.67em 0;
-} */
 
 /* Grouping content
    ========================================================================== */
